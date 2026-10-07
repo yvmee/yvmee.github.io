@@ -1,0 +1,27 @@
+# Technical skills, grouped as on the CV. Order of groups and items is preserved.
+groups:
+  - id: languages
+    title: Programming Languages
+    items:
+      - C++
+      - C#
+      - Python
+      - TypeScript
+      - Java
+  - id: engines
+    title: Engines & Frameworks
+    items:
+      - Unity
+      - Unreal Engine
+      - React
+      - Pandas/NumPy/PyTorch
+      - OpenCV
+      - OpenMP
+  - id: competencies
+    title: Competencies
+    items:
+      - Level Design
+      - Human-Centered Design
+      - Deep Learning
+      - Neural Network Application
+      - Parallel Programming

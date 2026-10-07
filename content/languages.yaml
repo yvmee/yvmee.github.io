@@ -1,0 +1,13 @@
+# Spoken languages. `level` is the display word, `cefr` is "native", a CEFR level or a range like "A2-B1".
+- name: German
+  level: Native
+  cefr: native
+- name: English
+  level: Fluent
+  cefr: C1
+- name: Japanese
+  level: Fluent
+  cefr: B2
+- name: French
+  level: Basic
+  cefr: A2-B1

@@ -1,0 +1,35 @@
+# Personal details, bio and contact links.
+# `summary` stands alone (answer-first, used by search/AI engines); `about` paragraphs are shown on the site.
+# Text fields support inline markdown: **bold**, *italic*, [text](url).
+# Contacts with `public: false` are only for private consumers (the CV PDF), never the website.
+name: Lara Liebmann
+givenName: Lara
+familyName: Liebmann
+headline: Games Engineer
+location:
+  city: Munich
+  country: Germany
+  countryCode: DE
+summary: "Lara Liebmann is a games engineer based in Munich, Germany, with a B.Sc. and M.Sc. in Informatics: Games Engineering from the Technical University of Munich (TUM). Lara builds games end to end, from C++ gameplay in Unreal Engine to research-based educational browser games."
+about:
+  - "Hey there! I'm Lara, a games engineer from Munich. With a team of four I shipped *Off Course*, a 3D puzzle game, on Steam and showed it at Gamescom 2025. These days I build everything from Unreal Engine gameplay to educational browser games."
+  - "I did a research exchange at The University of Tokyo on computer graphics and animation generation with diffusion models. I'm especially drawn to procedural generation, level design, human-centered design and game-based learning."
+avatar:
+  alt: Pixel art portrait of Lara Liebmann
+contacts:
+  - type: email
+    label: Email
+    value: laraemelie.li@gmail.com
+    url: mailto:laraemelie.li@gmail.com
+  - type: linkedin
+    label: LinkedIn
+    value: linkedin.com/in/lara-liebmann
+    url: https://www.linkedin.com/in/lara-liebmann
+  - type: github
+    label: GitHub
+    value: github.com/yvmee
+    url: https://github.com/yvmee
+  - type: itch
+    label: itch.io
+    value: yvme.itch.io
+    url: https://yvme.itch.io/

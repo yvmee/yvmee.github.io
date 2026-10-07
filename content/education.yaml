@@ -1,0 +1,32 @@
+# Education, in CV order. Dates are quoted "YYYY-MM" strings.
+# `details` are labelled lines (coursework, scholarships, research) and support inline markdown.
+- institution: Technical University of Munich
+  degree: M.Sc. Informatics — Games Engineering
+  location: Munich, Germany
+  period:
+    start: "2023-10"
+    end: "2026-09"
+  grade: "GPA: 1.5 (German scale)"
+  url: https://www.tum.de/
+  details:
+    - label: Relevant coursework
+      text: Procedural Generation, Deep Learning, AI for Games, Computer Graphics, Real-Time Rendering, Software Engineering
+    - label: Scholarship
+      text: "Awarded the *Studienstiftung des deutschen Volkes* scholarship providing funding and programs throughout Bachelor's and Master's studies (2020 – 2026)"
+- institution: The University of Tokyo
+  degree: Research Exchange during M.Sc.
+  location: Tokyo, Japan
+  period:
+    start: "2024-10"
+    end: "2025-04"
+  url: https://www.u-tokyo.ac.jp/en/
+  details:
+    - label: Research
+      text: Project on interactive Computer Graphics and Animation Generation with a Diffusion Model
+- institution: Technical University of Munich
+  degree: B.Sc. Informatics — Games Engineering
+  location: Munich, Germany
+  period:
+    start: "2020-10"
+    end: "2023-09"
+  url: https://www.tum.de/

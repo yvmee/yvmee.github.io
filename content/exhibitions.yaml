@@ -1,0 +1,22 @@
+# Selected exhibitions, in CV order. `date` is the year (quoted string); `work` is the exhibited work.
+# `description` supports inline markdown (the work name is *italic*). An optional `url` can be added per entry.
+- event: Immersive Arts Ausstellung 2026
+  location: Munich, Germany
+  date: "2026"
+  work: Rotkäppchen
+  description: Exhibited the immersive game demo *Rotkäppchen* at an immersive arts exhibition
+- event: TUM FAR Demoday 2026
+  location: Munich, Germany
+  date: "2026"
+  work: Brewstead
+  description: Exhibited the game demo *Brewstead* at a booth at the TUM university
+- event: Gamescom 2025
+  location: Cologne, Germany
+  date: "2025"
+  work: Off Course
+  description: Exhibited *Off Course* at the indie booth
+- event: Games Bavaria 2025
+  location: Munich, Germany
+  date: "2025"
+  work: Off Course
+  description: Exhibited *Off Course* at the TUM booth

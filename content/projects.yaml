@@ -1,0 +1,68 @@
+# Selected projects, in CV order. Dates are quoted "YYYY-MM" strings; `end` may be "present".
+# `periodLabel` replaces the formatted period. GitHub data is fetched live; `github.fallback` values are only used for fields the API does not return (or when it is unreachable).
+# Text fields support inline markdown: **bold**, *italic*, [text](url).
+- id: off-course
+  name: Off Course
+  kind: game
+  summary: Story-driven 3D puzzle game, developed in a team of 4 and published on Steam.
+  period:
+    start: "2024-04"
+    end: "2026-03"
+  tech:
+    - Unreal Engine
+    - C++
+    - Blueprints
+  highlights:
+    - Developed a story-driven 3D puzzle game in a team of 4
+    - Programmed in C++ and Blueprints and designed several puzzle levels
+    - Shipped a finished, polished game and published it on Steam
+  links:
+    - label: Steam
+      url: https://store.steampowered.com/app/3886730/Off_Course/
+
+- id: nexum
+  name: Nexum
+  kind: game
+  summary: Educational browser game that prepares students for teaching tasks.
+  period:
+    start: "2025-12"
+    end: "2026-06"
+  tech:
+    - TypeScript
+    - React
+    - Vite
+    - WebDev
+  highlights:
+    - Solo-developed an educational browser game for preparing students for teaching tasks
+    - Grounded in well-founded research on game-based learning
+    - Implemented an asynchronous multiplayer element in the form of a discussion mechanic
+  links:
+    - label: Play
+      url: https://yvmee.github.io/nexum/
+  github:
+    repo: yvmee/nexum
+    fallback:
+      description: A digital discussion game for onboarding student tutors and doctoral candidates.
+      homepage: https://yvmee.github.io/nexum/
+      language: TypeScript
+
+- id: reflash
+  name: Reflash
+  kind: software
+  summary: Browser extension that generates flashcards automatically with an on-device VLM.
+  period:
+    start: "2025-11"
+  periodLabel: Hackatum Nov. 2025
+  tech:
+    - TypeScript
+    - React
+    - web-llm
+  highlights:
+    - Developed a browser extension in a team of two
+    - Implemented automatic flashcard generation with on-device VLM
+  links: []
+  # TODO: add the Reflash repository (owner/name)
+  # github:
+  #   repo: yvmee/reflash
+  #   fallback:
+  #     description: ""

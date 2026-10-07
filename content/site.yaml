@@ -1,0 +1,34 @@
+# Site-wide metadata (SEO), window titles and decorative texts.
+# `description` is the meta description (aim for 120-160 characters, answer-first).
+url: https://yvmee.github.io
+lang: en
+locale: en_US
+title: "Lara Liebmann – Games Engineer & Developer in Munich"
+description: "Lara Liebmann is a games engineer in Munich (M.Sc. Games Engineering, TUM) building games in Unreal Engine, Unity and React. Projects, CV and contact."
+keywords:
+  - Lara Liebmann
+  - games engineer
+  - game developer
+  - Munich
+  - Zurich
+  - TUM
+  - ETH
+  - Games Engineering
+  - Unreal Engine
+  - Unity
+  - C++
+  - level design
+  - game-based learning
+  - portfolio
+windowTitle: "yvmee – Lara | Game Dev & Researcher"
+greeting: "Hi! Welcome to my website!"
+sections:
+  about: About
+  projects: Projects
+  exhibitions: Exhibitions
+  experience: Experience
+  education: Education
+  connect: Connect
+connect:
+  heading: Want to work together?
+  subheading: "Let's chat!"

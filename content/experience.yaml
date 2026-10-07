@@ -1,0 +1,20 @@
+# Work experience, in CV order. Dates are quoted "YYYY-MM" strings.
+# `highlights` are bullet points and support inline markdown.
+- title: HiWI - Interactive Visualization
+  organization: TUM School of Engineering and Design
+  location: Munich, Germany
+  period:
+    start: "2022-10"
+    end: "2023-04"
+  highlights:
+    - Worked as tech support for the lecture 'Interactive Visualization' at the Chair of Architectural Informatics
+    - Held several course lecture sessions on the topics of game and software development
+- title: HiWI - Research
+  organization: TUM School of Computation, Information and Technology
+  location: Munich, Germany
+  period:
+    start: "2026-08"
+    end: "2026-09"
+  highlights:
+    - Follow-up work on master thesis project
+    - Co-writing a research paper on digital discussion games
