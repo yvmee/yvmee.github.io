@@ -46,9 +46,6 @@ export function App({ snapshot }: { snapshot: RepoSnapshot }) {
               {formatDate(__CONTENT_UPDATED__)}
             </time>
           </p>
-          <p className="mt-1">
-            Built with React, shadcn/ui &amp; Base UI
-          </p>
         </footer>
       </main>
       <Taskbar />

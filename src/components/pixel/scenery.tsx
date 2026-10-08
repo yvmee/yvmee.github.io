@@ -221,7 +221,6 @@ export function Strawberry({
   )
 }
 
-
 const avatar = spritePaths(avatarRows)
 
 export function PixelAvatar({

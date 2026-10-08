@@ -1,0 +1,56 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "content/**"
+      - "public/**"
+      - "build/**"
+      - "index.html"
+      - "package.json"
+      - "package-lock.json"
+      - "vite.config.ts"
+      - "tsconfig*.json"
+      - "eslint.config.js"
+      - ".prettierrc"
+      - ".prettierignore"
+      - "components.json"
+      - "README.md"
+      - ".github/**"
+  workflow_call:
+    inputs:
+      upload-pages-artifact:
+        description: Upload dist/ as the GitHub Pages artifact
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Full history: "last updated" is the date of the last commit touching content/
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run format:check
+      - run: npm run lint
+      - run: npm run build
+        env:
+          # The build fetches repository data from the GitHub API; the token avoids the unauthenticated rate limit.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - if: inputs.upload-pages-artifact
+        uses: actions/configure-pages@v6
+      - if: inputs.upload-pages-artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
