@@ -6,7 +6,6 @@
   period:
     start: "2023-10"
     end: "2026-09"
-  grade: "GPA: 1.5 (German scale)"
   url: https://www.tum.de/
   details:
     - label: Relevant coursework

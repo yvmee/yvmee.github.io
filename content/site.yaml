@@ -3,8 +3,8 @@
 url: https://yvmee.github.io
 lang: en
 locale: en_US
-title: "Lara Liebmann – Games Engineer & Developer in Munich"
-description: "Lara Liebmann is a games engineer in Munich (M.Sc. Games Engineering, TUM) building games in Unreal Engine, Unity and React. Projects, CV and contact."
+title: "Lara Liebmann – Game Developer & Researcher in Munich, Germany and Zurich, Switzerland"
+description: "I am a games developer and researcher based in Munich, Germany and Zurich, Switzerland."
 keywords:
   - Lara Liebmann
   - games engineer
@@ -20,7 +20,7 @@ keywords:
   - level design
   - game-based learning
   - portfolio
-windowTitle: "yvmee – Lara | Game Dev & Researcher"
+windowTitle: "yvmee – Lara | Research & Game Dev"
 greeting: "Hi! Welcome to my website!"
 sections:
   about: About

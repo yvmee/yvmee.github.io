@@ -42,13 +42,13 @@ export const avatarRows = [
 
 /** Fixed palette so the portrait looks the same in day and night mode. */
 export const avatarPalette: Record<string, string> = {
-  K: "#1f2a2b",
-  H: "#46605f",
+  K: "#F5C689",
+  H: "#FFCE8F",
   S: "#fde9df",
   E: "#1f2a2b",
   W: "#ffffff",
   B: "#ffa08c",
   M: "#c0563f",
-  C: "#7cc4b5",
-  D: "#55a594",
+  C: "#1F2A2B",
+  D: "#46605f",
 }

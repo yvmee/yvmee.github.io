@@ -36,14 +36,10 @@
     - Solo-developed an educational browser game for preparing students for teaching tasks
     - Grounded in well-founded research on game-based learning
     - Implemented an asynchronous multiplayer element in the form of a discussion mechanic
-  links:
-    - label: Play
-      url: https://yvmee.github.io/nexum/
   github:
     repo: yvmee/nexum
     fallback:
       description: A digital discussion game for onboarding student tutors and doctoral candidates.
-      homepage: https://yvmee.github.io/nexum/
       language: TypeScript
 
 - id: reflash
