@@ -21,7 +21,6 @@ keywords:
   - game-based learning
   - portfolio
 windowTitle: "yvmee – Lara | Research & Game Dev"
-greeting: "Hi! Welcome to my website!"
 sections:
   about: About
   projects: Projects
@@ -30,5 +29,5 @@ sections:
   education: Education
   connect: Connect
 connect:
-  heading: Want to work together?
-  subheading: "Let's chat!"
+  heading: Want to connect?
+  subheading: ""

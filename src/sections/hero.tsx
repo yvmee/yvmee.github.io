@@ -55,8 +55,8 @@ export function Hero() {
         </>
       }
     >
-      <div className="flex flex-wrap items-start gap-4 sm:gap-6">
-        <Panel title="Digital Me" className="w-36 sm:w-44" bodyClassName="p-2">
+      <div className="flex flex-col items-start gap-6 md:flex-row md:gap-8">
+        <Panel title="Me" className="w-36 shrink-0 sm:w-44" bodyClassName="p-2">
           {profile.avatar.src ? (
             <img
               src={profile.avatar.src}
@@ -69,54 +69,47 @@ export function Hero() {
             <PixelAvatar title={profile.avatar.alt} className="w-full" />
           )}
         </Panel>
-        <p className="relative mt-4 rounded-2xl border-2 bg-paper px-4 py-2 font-pixel text-lg sm:mt-8 sm:text-xl">
-          <span
-            aria-hidden="true"
-            className="absolute top-1/2 -left-2.5 size-4 -translate-y-1/2 rotate-45 border-b-2 border-l-2 bg-paper"
-          />
-          {site.greeting}
-          <span aria-hidden="true" className="ml-1 animate-blink">
-            ▌
-          </span>
-        </p>
-      </div>
 
-      <Panel
-        title="README.txt"
-        headingLevel={3}
-        className="mt-8 max-w-2xl sm:mt-12"
-        bodyClassName="space-y-4 sm:p-6"
-      >
-        <div>
-          <h1 className="font-pixel text-4xl leading-none sm:text-6xl">
-            {profile.name}
-          </h1>
-          <p className="mt-2 font-mono text-sm text-muted-foreground">
-            {profile.headline} · {profile.location.city},{" "}
-            {profile.location.country}
+        <Panel
+          title="README.txt"
+          headingLevel={3}
+          className="max-w-2xl md:min-w-0 md:flex-1"
+          bodyClassName="space-y-4 sm:p-6"
+        >
+          <div>
+            <h1 className="font-pixel text-4xl leading-none sm:text-6xl">
+              {profile.name}
+            </h1>
+            <p className="mt-2 font-mono text-sm text-muted-foreground">
+              {profile.headline} · {profile.location.city},{" "}
+              {profile.location.country}
+            </p>
+          </div>
+          <p className="leading-relaxed">
+            <RichText text={profile.summary} />
           </p>
-        </div>
-        <p className="leading-relaxed">
-          <RichText text={profile.summary} />
-        </p>
-        <ul className="flex flex-wrap gap-2" aria-label="Profiles and contact">
-          {links.map((contact) => (
-            <li key={contact.type}>
-              <a
-                href={contact.url}
-                rel={contact.type === "email" ? undefined : "me noopener"}
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }),
-                  "rounded-sm border-2 border-ink hover:bg-accent hover:text-accent-foreground"
-                )}
-              >
-                <ContactIcon type={contact.type} />
-                {contact.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </Panel>
+          <ul
+            className="flex flex-wrap gap-2"
+            aria-label="Profiles and contact"
+          >
+            {links.map((contact) => (
+              <li key={contact.type}>
+                <a
+                  href={contact.url}
+                  rel={contact.type === "email" ? undefined : "me noopener"}
+                  className={cn(
+                    buttonVariants({ variant: "outline", size: "sm" }),
+                    "rounded-sm border-2 border-ink hover:bg-accent hover:text-accent-foreground"
+                  )}
+                >
+                  <ContactIcon type={contact.type} />
+                  {contact.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Panel>
+      </div>
     </Scene>
   )
 }

@@ -44,7 +44,6 @@ export const siteSchema = z.object({
   /** Title of the top window, e.g. "LARA'S PORTFOLIO" */
   windowTitle: z.string(),
   /** Speech bubble next to the avatar */
-  greeting: z.string(),
   /** Title bars of the section windows */
   sections: z.object({
     about: z.string(),

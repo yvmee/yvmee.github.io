@@ -1,5 +1,15 @@
 # Education, in CV order. Dates are quoted "YYYY-MM" strings.
 # `details` are labelled lines (coursework, scholarships, research) and support inline markdown.
+# phd at eth zurich, focusing on perception in VR environments.
+- institution: ETH Zurich
+  degree: PhD in Computer Science
+  location: Zurich, Switzerland
+  period:
+    start: "2026-11"
+  url: https://ethz.ch/en.html
+  details:
+    - label: Research focus
+      text: "Perception in VR environments."
 - institution: Technical University of Munich
   degree: M.Sc. Informatics — Games Engineering
   location: Munich, Germany

@@ -22,6 +22,7 @@ groups:
     items:
       - Level Design
       - Human-Centered Design
+      - XR Development
       - Deep Learning
       - Neural Network Application
       - Parallel Programming

@@ -25,7 +25,7 @@ Everything lives in `content/`. The schema is `src/content/schema.ts` (field com
 
 | File               | Holds                                                                             |
 | ------------------ | --------------------------------------------------------------------------------- |
-| `site.yaml`        | URL, title, meta description, keywords, window titles, greeting, section titles   |
+| `site.yaml`        | URL, title, meta description, keywords, window titles, section titles             |
 | `profile.yaml`     | Name, headline, location, `summary`, `about` paragraphs, avatar, contacts         |
 | `skills.yaml`      | Skill groups and items                                                            |
 | `languages.yaml`   | Spoken languages with display level and optional CEFR level                       |
